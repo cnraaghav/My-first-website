@@ -1,0 +1,73 @@
+.p {
+    color: black;
+}
+h1 {
+    font-size: 3vw;
+    /*color:darkblue;*/
+}
+
+h2 {
+    /*color:chocolate;*/
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+table, th, td {
+    border-style: dotted;
+    border-color: darkSlateBlue;
+}
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+#navbar{
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbAR{
+    background-color: #FFFAFF;
+    border: #000080;
+    font-size: 20px;
+}
+.navbAR th{
+    border: #000080;
+    padding: 5px;
+}
+body {
+    font-family: "Verdana", Geneva, sans-serif;
+    background-image: url(../img/bluetile.png);
+}
+header{
+    background-color: #000080;
+    color: #FFFAFF;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid #FFFAFF;
+}
+.dropdown {
+    display: inline-block;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFAFF;
+    color: #000080;
+    padding: 10px;
+    box-shadow: 5px 5px 7px black;
+   
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active {
+    background-color: lightcoral;
+}
